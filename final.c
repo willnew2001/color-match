@@ -121,7 +121,7 @@ get_red_from_x(int x)
 	int red;
 	double inc;
 
-	/* Standardize analogue x between -81 and 81 */
+	/* Standardize analog x between -81 and 81 */
 	if (x < -81) x = -81;
 	if (x > 81) x = 81;
 
@@ -157,7 +157,7 @@ get_green_from_x(int x)
 	int green;
 	double inc;
 
-	/* Standardize analogue x between -81 and 81 */
+	/* Standardize analog x between -81 and 81 */
 	if (x < -81) x = -81;
 	if (x > 81) x = 81;
 
@@ -191,7 +191,7 @@ get_blue_from_x(int x)
 	int blue;
 	double inc;
 
-	/* Standardize analogue x between -81 and 81 */
+	/* Standardize analog x between -81 and 81 */
 	if (x < -81) x = -81;
 	if (x > 81) x = 81;
 
@@ -225,7 +225,7 @@ get_tint_from_y(int y)
 {
 	int tint;
 
-	/* Standardize analogue y between -75 and 75 */	
+	/* Standardize analog y between -75 and 75 */	
 	if (y < -75) y = -75;
 	if (y > 75) y = 75;
 
