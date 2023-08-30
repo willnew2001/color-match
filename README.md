@@ -2,6 +2,9 @@
 
 Video example: https://www.youtube.com/watch?v=h-BYgH5R9Lc
 
+This project uses an LCD screen which communicates using the SPI protocol and
+a Wii Nunchuck adapter which communicates over I2C.
+
 The goal of the game is to match the color of the right rectangle with the 
 color of the left rectangle. The left rectangle is a random color during every 
 round, and you control the right rectangle with the orientation of the Nunchuck 
